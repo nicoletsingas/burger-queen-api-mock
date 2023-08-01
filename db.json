@@ -1,69 +1,5 @@
 {
-  "orders": [
-    {
-      "id": 1,
-      "userId": 1,
-      "client": "Jude Milhon",
-      "products": [
-        {
-          "qty": 1,
-          "product": {
-            "id": 1,
-            "name": "Sandwich de jamón y queso",
-            "price": 1000,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        },
-        {
-          "qty": 1,
-          "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        }
-      ],
-      "status": "pending",
-      "dataEntry": "2022-03-05 15:00"
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "client": "Katie Bouman",
-      "products": [
-        {
-          "qty": 2,
-          "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        },
-        {
-          "qty": 1,
-          "product": {
-            "id": 3,
-            "name": "Agua 500ml",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
-            "type": "Almuerzo",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        }
-      ],
-      "status": "delivered",
-      "dataEntry": "2022-03-05 15:00",
-      "dateProcessed": "2022-03-05 16:00"
-    }
-  ],
+  "orders": [],
   "products": [
     {
       "id": 1,
@@ -99,22 +35,22 @@
   ],
   "users": [
     {
-      "email": "anita.borg@systers.xyz",
-      "password": "$2a$10$gVkmcWdnwEBxXj2PWjuv9uDx7BfjiAobbabDAOrH2o8b1i3E7KwR.",
-      "role": "admin",
-      "id": 1
+      "email": "garconete@3dburguer.com",
+      "password": "$2a$10$DMiiqhKEOfPOik9I7vpIvOm5e0ue1ExCbrYdyG5b.ZMEizlASPcGe",
+      "role": "user",
+      "id": 4
     },
     {
-      "email": "grace.hopper@systers.xyz",
-      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
-      "role": "admin",
-      "id": 2
+      "email": "cozinha@3dburguer.com",
+      "password": "$2a$10$D8700fGy/FSblLKzXqQgnepDIo3tPM3uymc3e6sWID8nHFiFB2N3q",
+      "role": "chef",
+      "id": 5
     },
     {
-      "email": "nara.sakamoto@laboratoria.la",
-      "password": "$2a$10$VkvaBkhnm4k3KP/yCdhCgu/qtzxe7F00CVkTsAsr5pbfU8rPVZEQW",
+      "email": "admin@3dburguer.com",
+      "password": "$2a$10$Iv2g2xAhexJp44faXYovI.alE.3yU8hfBI8AS57crXnG.Xqo5aXZC",
       "role": "admin",
-      "id": 3
+      "id": 6
     }
   ]
 }
