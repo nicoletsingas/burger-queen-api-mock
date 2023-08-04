@@ -31,11 +31,11 @@
       "details": "Sanduiche de presunto, queijo, tomate e alface"
     },
     {
+      "id": "4",
       "name": "Suco de fruta",
       "price": "7",
       "image": "https://images2.imgbox.com/5f/e1/s5OvaoKa_o.png",
       "type": "Café Da Manhã",
-      "id": 4,
       "dateEntry": "2023-08-04 11:55:10",
       "details": "Suco de fruta 240ml. Abacaxi, Laranja, Morango..."
     },
