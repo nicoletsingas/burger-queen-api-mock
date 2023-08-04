@@ -3,34 +3,113 @@
   "products": [
     {
       "id": 1,
-      "name": "Sandwich de jamón y queso",
-      "price": 1000,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
-      "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
+      "name": "Café americano",
+      "price": "5",
+      "image": "https://images2.imgbox.com/66/2d/oT8g83yJ_o.png",
+      "type": "Café Da Manhã",
+      "dateEntry": "2022-03-05 15:14:10",
+      "dataEntry": "2023-08-03 18:14:10",
+      "details": "Café americano 240ml"
     },
     {
       "id": 2,
-      "name": "Café americano",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
-      "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
+      "name": "Café com leite",
+      "price": "7",
+      "image": "https://images2.imgbox.com/9b/29/OJXIskVA_o.png",
+      "type": "Café Da Manhã",
+      "dateEntry": "2022-08-04 11:53:10",
+      "details": "Café com leite 240ml",
+      "dataEntry": "2023-08-04 11:50:10"
     },
     {
       "id": 3,
-      "name": "Agua 500ml",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
-      "type": "Almuerzo",
-      "dateEntry": "2022-03-05 15:14:10"
+      "name": "Sanduíche de presunto e queijo",
+      "price": "10",
+      "image": "https://images2.imgbox.com/3f/20/xFYfpfeY_o.png",
+      "type": "Café Da Manhã",
+      "dateEntry": "2023-08-04 11:55:10",
+      "details": "Sanduiche de presunto, queijo, tomate e alface"
     },
     {
-      "name": "Agua 500ml",
-      "price": 500,
-      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
-      "type": "Almuerzo",
-      "id": 4
+      "name": "Suco de fruta",
+      "price": "7",
+      "image": "https://images2.imgbox.com/5f/e1/s5OvaoKa_o.png",
+      "type": "Café Da Manhã",
+      "id": 4,
+      "dateEntry": "2023-08-04 11:55:10",
+      "details": "Suco de fruta 240ml. Abacaxi, Laranja, Morango..."
+    },
+    {
+      "id": "5",
+      "name": "X Burguer",
+      "price": "10",
+      "image": "https://images2.imgbox.com/9f/90/DT2UcinF_o.png",
+      "type": "Almoço",
+      "dateEntry": "2023-08-04 11:55:10",
+      "details": "Hamburguer simples, pão, carne, queijo, salada, molho"
+    },
+    {
+      "id": "6",
+      "name": "Hamburguer duplo",
+      "price": "15",
+      "image": "https://images2.imgbox.com/60/08/bqeHlr5n_o.png",
+      "type": "Almoço",
+      "dateEntry": "2023-08-04 11:55:10",
+      "details": "Hamburguer duplo, pão, duas carnes, queijo, salada, molho"
+    },
+    {
+      "id": "7",
+      "name": "HotDog",
+      "price": "10",
+      "image": "https://images2.imgbox.com/ae/44/2Aho0FvD_o.png",
+      "type": "Almoço",
+      "dateEntry": "2023-08-04 11:55:10",
+      "details": "Pão, salsicha, purê de batata, milho, batata palha, ketchup e mostarda"
+    },
+    {
+      "id": "8",
+      "name": "Batata frita",
+      "price": "5",
+      "image": "https://images2.imgbox.com/4c/6a/KXS2Wzq1_o.png",
+      "type": "Almoço",
+      "dateEntry": "2023-08-04 11:55:10",
+      "details": "Porção de batatas fritas"
+    },
+    {
+      "id": "9",
+      "name": "Onion Rings",
+      "price": "5",
+      "image": "https://images2.imgbox.com/2d/57/fyutr5lT_o.png",
+      "type": "Almoço",
+      "dateEntry": "2023-08-04 12:05:10",
+      "details": "Porçao de aneis de cebola empanado e frito"
+    },
+    {
+      "id": "10",
+      "name": "Refrigerante 350ml",
+      "price": "7",
+      "image": "https://images2.imgbox.com/37/11/0qjZAxYo_o.png",
+      "type": "Almoço",
+      "dateEntry": "2023-08-04 12:05:10",
+      "details": "Refrigerante 350ml, coca-cola, guaraná, pepsi"
+    },
+    {
+      "id": "11",
+      "name": "Refrigerante 750ml",
+      "price": "10",
+      "image": "https://images2.imgbox.com/7a/11/2tRbYiL1_o.png",
+      "type": "Almoço",
+      "dateEntry": "2023-08-04 12:05:10",
+      "details": "Refrigerante 750ml, coca-cola, guaraná, pepsi"
+    },
+    {
+      "id": "12",
+      "name": "Água",
+      "price": "7",
+      "image": "https://images2.imgbox.com/5b/c7/0iGs9I98_o.png",
+      "type": "Almoço",
+      "dateEntry": "2023-08-04 12:05:10",
+      "details": "Água 750ml"
     }
   ],
   "users": [
