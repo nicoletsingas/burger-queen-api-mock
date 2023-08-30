@@ -1,57 +1,97 @@
 {
   "orders": [
     {
-      "client": "July Bordercollie",
+      "client": "Carol",
       "table": "003",
-      "waiter": "Gisele",
+      "waiter": "Floquinho",
+      "status": "completed",
+      "completedDate": "28/08/2023",
+      "orderDelivered": "delivered",
       "products": [
         {
-          "name": "X Burguer",
-          "quantity": 1,
-          "status": "pending"
+          "name": "Misto quente",
+          "quantity": 1
         },
         {
+          "name": "Suco de fruta",
+          "quantity": 1
+        },
+        {
+          "name": "Croissant",
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "client": "Nicole",
+      "table": "002",
+      "waiter": "Floquinho",
+      "status": "completed",
+      "completedDate": "30/08/2023",
+      "orderDelivered": "delivered",
+      "products": [
+        {
+          "name": "Suco de fruta",
+          "quantity": 1
+        },
+        {
+          "name": "Croissant",
+          "quantity": 1
+        },
+        {
+          "name": "Panquecas",
+          "quantity": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "client": "Hideki",
+      "table": "001",
+      "waiter": "Floquinho",
+      "status": "completed",
+      "completedDate": "30/08/2023",
+      "orderDelivered": "",
+      "products": [
+        {
           "name": "Hamburguer duplo",
-          "quantity": 1,
-          "status": "pending"
+          "quantity": 1
+        },
+        {
+          "name": "HotDog",
+          "quantity": 1
         },
         {
           "name": "Batata frita",
-          "quantity": 1,
-          "status": "pending"
+          "quantity": 1
         },
         {
           "name": "Refrigerante 750ml",
-          "quantity": 1,
-          "status": "pending"
-        },
-        {
-          "name": "Água",
-          "quantity": 1,
-          "status": "pending"
+          "quantity": 1
         }
       ],
       "id": 3
     },
     {
-      "client": "Larissa vidaloka",
-      "table": "004",
-      "waiter": "Gisele",
+      "client": "Carol",
+      "table": "002",
+      "waiter": "Floquinho",
+      "status": "completed",
+      "completedDate": "30/08/2023",
+      "orderDelivered": "",
       "products": [
         {
-          "name": "Suco de fruta",
-          "quantity": 1,
-          "status": "pending"
+          "name": "Café americano",
+          "quantity": 1
+        },
+        {
+          "name": "Misto quente",
+          "quantity": 1
         },
         {
           "name": "Croissant",
-          "quantity": 1,
-          "status": "pending"
-        },
-        {
-          "name": "Panquecas",
-          "quantity": 1,
-          "status": "pending"
+          "quantity": 1
         }
       ],
       "id": 4
@@ -66,7 +106,8 @@
       "type": "Café da manhã",
       "dateEntry": "2023-08-06 00:14:10",
       "dataEntry": "2023-08-03 18:14:10",
-      "details": "Café americano 240ml"
+      "details": "Café americano 240ml",
+      "editing": true
     },
     {
       "id": 2,
@@ -178,34 +219,45 @@
       "details": "Refrigerante 750ml, coca-cola, guaraná, pepsi"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Água",
       "price": "7",
       "image": "https://images2.imgbox.com/a1/39/u5kMkmv8_o.png",
-      "type": "Almoço",
-      "dateEntry": "2023-08-05 00:05:10",
-      "details": "Água 750ml"
+      "details": "Água 750ml",
+      "dateEntry": "2023-08-23",
+      "type": "Almoço"
     }
   ],
   "users": [
     {
-      "email": "garconete@burguercooked.com",
-      "password": "$2a$10$JYCBHJ8pkSvm1dlJT67BPOaOUV.BXd/WkTtVNLcfWDkRaXtJBB6qi",
-      "role": "waiter",
-      "id": 4,
-      "name": "Gisele"
-    },
-    {
-      "email": "cozinha@burguercooked.com",
-      "password": "$2a$10$hvXfGBo6uWhTYQvVT4q.Pup7etJyJ9oNye4PxHouvAS.GHVnnkcJa",
-      "role": "chef",
-      "id": 5
-    },
-    {
       "email": "admin@burguercooked.com",
-      "password": "$2a$10$25yYs23gy2elL2uKssGx1.NKUzeeMBbktwbpZucDhGK2uK8LVs7q2",
+      "password": "$2a$10$faO5AJkz37vaf4/h2D5IL.upX0.BrW9miqxCrn7RSoKLIJo4TilFC",
       "role": "admin",
-      "id": 6
+      "id": 1,
+      "name": "Nicole",
+      "editing": true
+    },
+    {
+      "email": "chef@burguercooked.com",
+      "password": "$2a$10$5b3Kn2t1w1jNypaZNjAY.O5cYadcxpUs6PWzT1YZCvdvraU1hROra",
+      "role": "chef",
+      "id": 2,
+      "name": "Eliana",
+      "editing": true
+    },
+    {
+      "email": "waiter@burguercooked.com",
+      "password": "$2a$10$y7msGRynJPEXRGZodpOenO1LcQOwVzcNINu5SIcF//fce.PvFxVte",
+      "name": "Floquinho",
+      "role": "waiter",
+      "id": 3
+    },
+    {
+      "email": "waiter2@burguercooked.com",
+      "password": "$2a$10$iNAGQsQvEoMxFASr5CJGzO.4E6qHqPHbRFxsPUO4san0Z0RI4PXPO",
+      "name": "Jacarezinho",
+      "role": "waiter",
+      "id": 4
     }
   ]
 }
